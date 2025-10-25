@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        // {
+        //     "name": "C/C++: clang++ build and debug active file",
+        //     "type": "lldb",
+        //     "request": "launch",
+        //     "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+        //     "args": [],
+        //     "cwd": "${fileDirname}",
+        //     "preLaunchTask": "C/C++: clang++ build active file"
+        // },
+        {
+            "name": "C/C++: make debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/app",
+            "args": [],
+            "cwd": "${workspaceFolder}/build",
+            "preLaunchTask": "C/C++: make debug"
+        }
+    ],
+    "version": "2.0.0"
+}
